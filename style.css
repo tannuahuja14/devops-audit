@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+      background: linear-gradient(to right,
+                                  #2b0140 0%,      /* Dark purple on the left */
+                                  #601f99 50%,     /* Light purple in the middle */
+                                  #705d93 100%);   /* Very light color on the right */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+}
+ 
+.navbar img {
+    max-height: 40px;
+    background-color: white;
+}
+ 
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ 
+.navbar li {
+    margin: 0 15px;
+}
+ 
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+ 
+.lets-talk-btn {
+    
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.image-block {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+    background: linear-gradient(to right,
+                                #58097f 0%,      /* Dark purple on the left */
+                                #601f99 50%,     /* Light purple in the middle */
+                                #573c88 100%);   /* Very light color on the right */
+ 
+}
+ 
+.image-block img {
+    
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.4;
+}
+ 
+ 
+.image-text {
+    margin-bottom: 20px;
+}
+ 
+.image-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.image-block {
+    position: relative;
+}
+ 
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set the desired text color */
+}
+ 
+.image-text p {
+    font-size: 54px; /* Set the desired font size */
+    font-weight: bold; /* Set the desired font weight */
+    margin: 0; /* Remove default margin */
+}
+.content-block {
+    margin-top: 40px;
+    display: flex;
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the block on the page */
+
+}
+
+.text-block {
+    flex: 1;
+    max-width: 600px; /* Adjust the max-width as needed */
+    line-height: 1.9;
+    font-size: larger;
+}
+
+.text-block p {
+    margin-bottom: 20px;
+    color: white; /* Change the text color to your desired color */
+    font-family: 'Arial', sans-serif; /* Change the font-family to your desired font */
+    font-style: italic; /* Make the text italic */
+}
+
+
+.image-block-audit {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-block-audit img {
+    margin-top: 70px;
+    max-width: 50%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Style the main footer container */
+ .simple-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color :white;
+    background-color: #f7f7f7;
+    background: linear-gradient(to right,
+                                #6b1c92 0%,      /* Dark purple on the left */
+                                #601f99 50%,     /* Light purple in the middle */
+                                #705d93 100%);   /* Very light color on the right */
+
+}
+
+/* Style the logo section */
+.logo-section {
+    flex: 1; /* Adjust the width of the logo section */
+    margin-bottom: 20px;
+    justify-items: left;
+    justify-content: left;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+}
+
+/* Style the social links section */
+.social-links {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    color:white;
+}
+.social-links a{
+    text-decoration: none;
+}
+.social-link {
+    margin: 0 10px;
+}
+
+/* Style the navigation section */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.nav-section p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav-section ul {
+    list-style: none;
+    color:white;
+}
+
+.nav-section li {
+    margin-bottom: 5px;
+    color:white;
+}
+
+/* Style the copyright section */
+.copyright-section {
+    text-align: center; 
+}
+
+
+.container {
+    display: flex;
+}
+
+#quizContainer {
+    background-color: #8663b8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 70%;
+
+    box-sizing: border-box;
+}
+
+.pillar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #411979;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+
+.pillar {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Set cursor to pointer for a clickable appearance */
+    cursor: pointer;
+    /* Add hover effect to highlight on hover */
+    transition: background-color 0.3s;
+}
+ 
+.pillar:hover {
+    background-color: #d0d0d0;
+} 
+
+.question {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    /* Blue button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #c0c0c0;
+    /* Disable button color */
+    cursor: not-allowed;
+}
+.question-indicator {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/* footer section */
+.simple-footer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #333; /* Setting a background color for the footer */
+    padding: 20px; /* Adding some padding for spacing */
+}
+
+/* Logo styling */
+.logo-section {
+    display: flex;
+    align-items: center; /* Align logo vertically centered */
+    margin-bottom: 20px; /* Add spacing below the logo */
+}
+
+.logo {
+    width: 150px; /* Adjust width as needed */
+}
+
+/* Navigation Section */
+.navigation {
+    display: flex;
+    gap: 100px; /* Add spacing between navigation items */
+}
+
+
+
+.nav-section p, .nav-section ul, .nav-section ul li, .nav-section ul li a {
+    color: white; /* Set color of text and links to white */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Social Links styling */
+.social-links {
+    display: flex;
+    gap: 10px; /* Add some space between social links */
+    margin-top: 20px; /* Add spacing above the social links */
+    align-items:flex-start;
+}
+
+.social-link img {
+    width: 30px; /* Adjust size of social icons */
+    height: 30px;
+}
+
+/* Copyright Section */
+.copyright-section {
+    margin-top: 20px; /* Add spacing above the copyright section */
+    color: white; /* Set color of copyright text to white */
+}
